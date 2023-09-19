@@ -11,7 +11,7 @@ export const App = () => {
     <div className={styles['app']}>
       <Header className={styles['header']} />
       <Frame className={styles["frame"]}>
-        <Typography color='info' fontSize="heading2">
+        <Typography fontSize="heading2">
           Welcome!! This page is managed by{' '}
           <Link href="https://mirror.me.okmtyuta.jp" underlined>
             okmtyuta
