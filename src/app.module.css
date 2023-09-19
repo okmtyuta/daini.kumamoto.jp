@@ -1,0 +1,21 @@
+.app {
+  display: grid;
+  min-height: 100vh;
+  grid-template:
+    'header' auto
+    'frame' 1fr
+    'footer' auto;
+}
+
+.header {
+  grid-area: header;
+}
+.frame {
+  grid-area: frame;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.footer {
+  grid-area: footer;
+}
