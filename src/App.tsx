@@ -13,7 +13,7 @@ export const App = () => {
       <Frame className={styles["frame"]}>
         <Typography fontSize="heading2">
           Welcome!! This page is managed by{' '}
-          <Link href="https://me.okmtyua.jp" underlined>
+          <Link href="https://mirror.me.okmtyuta.jp" underlined>
             okmtyuta
           </Link>
           .
